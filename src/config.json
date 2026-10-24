@@ -1,0 +1,27 @@
+{
+  "sprite_height": 300,
+  "crawl_speed": 80,
+  "crawl_stop_distance": 46,
+  "fall_gravity": 1400,
+  "frame_ms": 33,
+  "timing": {
+    "idle_min": 3.5,
+    "idle_max": 9.0,
+    "sit_min": 5.0,
+    "sit_max": 14.0,
+    "sleep_min": 70.0,
+    "sleep_max": 180.0,
+    "hit_recover": 0.55,
+    "wake_linger": 2.0
+  },
+  "behavior": {
+    "chase_mouse_chance": 0.55,
+    "sleep_after_cycles": 2,
+    "idle_talk_chance": 0.25,
+    "hit_talk_chance": 0.9
+  },
+  "deep_sleep": false,
+  "ghost_chance": 0.6,
+  "story_mode": false,
+  "ghost_always": false
+}

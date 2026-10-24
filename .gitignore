@@ -1,0 +1,38 @@
+# 运行产物
+__pycache__/
+*.py[cod]
+*.log
+run.log
+run.err.log
+
+# 本地环境
+.venv/
+venv_pyside/
+env/
+runtime/
+
+# 素材（体积大，走 Release 分发）
+assets/
+pet_assets/
+voice_ref/
+pet_assets/**
+
+# 打包产物
+*.zip
+*.exe
+*.apk
+release/
+
+# 调试截图 / 中间产物
+dbg_*.png
+*_sheet*.png
+pinch_seq*.png
+chk_*.png
+build/
+dist/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
