@@ -36,3 +36,10 @@ dist/
 .idea/
 *.swp
 .DS_Store
+
+# 安卓构建产物
+android/app/build/
+android/.gradle/
+android/local.properties
+android/app/src/main/assets/
+*.apk
